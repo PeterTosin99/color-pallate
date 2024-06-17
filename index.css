@@ -1,0 +1,30 @@
+body{
+    height: 100vh;
+    overflow: hidden;
+    display: grid;
+    place-content: center;
+    background-color: #242424;
+}
+
+.box{
+    width: 300px;
+    height: 200px;
+    border: 1px solid #4d4d4f;
+    border-radius: 20px;
+    background-color: #333333;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+
+input{
+    height: 40px;
+    outline: none;
+    border: 1px solid #4d4d4f ;
+    border-radius: 20px;
+    background-color: #333333;
+    padding-left: 15px;
+    text-transform: lowercase;
+    font-size: 20px;
+    color: #ff666666;
+}
